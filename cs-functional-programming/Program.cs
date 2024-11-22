@@ -7,7 +7,10 @@ internal class Program
     static void Main(string[] args)
     {
         List<string> coolPeople = Exercises002.GetCoolPeople();
+        string result = "";
         Exercises002.PrintCoolPeople(coolPeople);
+
+        Console.WriteLine(result);
 
         Console.WriteLine();
 
